@@ -37,8 +37,8 @@ $(".time-block").append("<button class='col-1 saveBtn'></button>");
 $(".saveBtn").append("<i class='fas fa-save'></i>");
 
 
-var getCurrentTime = moment().hour();
-
+//var getCurrentTime = moment().hour();
+var getCurrentTime = 12
 function singleTimeBlock() {
     $(".time-block").each(function() {
         var blockTime = parseInt($(this).attr("id").split("time")[1]);
